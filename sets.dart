@@ -11,5 +11,10 @@ void main(){
   mySet.addAll({'F', 'G', 'H'});
   print(mySet);
   // add items in a specific index
-    mySet.elementAt(index)
+    mySet.elementAt(2);
+
+
+    print(mySet.length);
+    print(mySet.isNotEmpty);
+    print(mySet.hashCode);
 }

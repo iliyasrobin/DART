@@ -9,4 +9,8 @@ void main(){
  //print(fruitsList.single);
  print(fruitsList[1]);
  print(fruitsList[4]);
+
+ //adding between elements
+ fruitsList.insert(1,"papaya");
+ print(fruitsList);
 }
