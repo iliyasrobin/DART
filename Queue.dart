@@ -10,6 +10,7 @@ void main()
   q1.add("ILIYAS");
   q1.add("AHMED");
   q1.add("ROBIN");
+  q1.addAll({"iliyas", 'ahmed', 'robin'}); //adding multiple
   print(q1);
 
 
