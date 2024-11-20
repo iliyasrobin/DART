@@ -2,6 +2,7 @@ void main(){
 
 
   //single line comments
+//define list
 
   var fruitsList = ['mango', 'banana', 'apple', 'guava'];
   var riverslist =["padma", "meghna", "jamuna"];
