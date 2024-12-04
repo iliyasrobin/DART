@@ -12,3 +12,5 @@ void main(){
     print(per);
 
 }
+
+var newMap = Map.of(per);
