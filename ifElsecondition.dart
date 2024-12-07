@@ -35,4 +35,19 @@ void main(){
   }
 
 
+  //nested if else
+  int ? x =int.parse(readLineSync()!);
+  if(x<20{
+    if(x==20){
+      print("number is 20");      
+    };
+    else{
+      print("not 20");
+    };
+  }
+     else{
+       print("bigger than 20")
+     };
+
+
 }
