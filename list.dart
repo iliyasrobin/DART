@@ -13,4 +13,16 @@ void main(){
   print(districtList);
 
 
+  //list sorting
+   
+  // Creating list of string
+  List<String> abc = ['one', 'two', 'three', 'four'];
+  
+  abc.sort();  
+ 
+  print(abc);
+
+
+
+
 }
