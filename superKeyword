@@ -1,0 +1,53 @@
+// Parent class
+class abc{
+  String def= "parent";
+}
+
+// child class
+class ghi extends abc{
+
+  // Accessing parent class variable
+  void printInfo()
+  {
+    print(super.def);
+  }
+}
+
+void main()
+{
+  // child class object
+  ghi fgh = new ghi();
+
+  // Calling child class method
+  fgh.printInfo();
+}
+
+
+//more
+
+// Parent class
+class abc{
+    void printInfo()
+  {
+    print("Welcome to Gfg!!\nYou are inside parent class.");
+  }
+}
+
+// child class
+class ghi extends abc{
+
+  // Accessing parent class method
+ void info(){
+   super.printInfo();
+ }
+
+}
+
+void main()
+{
+  // child class object
+  ghi fgh = new ghi();
+
+  // Calling child class method
+  fgh.info();
+}
