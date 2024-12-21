@@ -4,4 +4,11 @@ var x =1;
     print(x);
     x++;
   }
+
+
+  //more
+  while(x%2==0){
+    print("ODD");
+    x++;
+  }
 }
