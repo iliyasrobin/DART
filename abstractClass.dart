@@ -17,4 +17,5 @@ void main(){
   print(obj.taka);
 
  // var obj2 = new father(); // now we can't do it.~
+  //you have to access view the son class
 }
